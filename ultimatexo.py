@@ -158,7 +158,6 @@ class MainGame:
             else:
                 return False
 
-
     def check_winner(self):
         for n, i in enumerate(self.grid):
             if len(set(i)) == 1 and i[0] != 0:
@@ -221,7 +220,6 @@ def main():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
-
 
 main()
 
